@@ -11,7 +11,6 @@ Hands-on practice for the [concept chapters](../README.md#learning-path). Each l
 | 02 | [AKS identity: Entra ID, Kubernetes RBAC, workload identity](02-aks-identity/README.md) | Azure | 04, 08, 10 | **Paid:** one small VM while the cluster exists | 60 min |
 | 03 | [CyberArk Conjur: secrets under policy](03-cyberark-conjur/README.md) | Docker (local) | 06, 08, 09 | Free | 45 min |
 | 04 | [SailPoint-style IGA: joiner, mover, leaver, SoD, certification](04-sailpoint-iga/README.md) | Python (local) | 05 | Free | 45 min |
-
 | 05 | [SCIM provisioning: both sides of the wire](05-scim-provisioning/README.md) | Python (local) | 13, 14 | Free | 45 min |
 
 Do them in order. Labs 04 and 05 need nothing but Python, so start there if you have no cloud account yet.
