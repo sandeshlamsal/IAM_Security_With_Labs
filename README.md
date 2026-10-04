@@ -10,6 +10,7 @@ IAM decides **who (or what) can access which resources, under what conditions**,
 
 - [Role guide: workforce IAM security engineer](docs/role-guide.md) maps a real job description, line by line, to the chapters and labs here.
 - [Tool comparison](docs/tool-comparison.md): OpenBao, CyberArk, SailPoint and Okta side by side.
+- [Interview preparation](interview/README.md): how live IAM interviews run, question sets with model answers, troubleshooting and design rounds, and timed mock interviews.
 
 ## The big picture
 
@@ -75,6 +76,18 @@ Start at [labs/README.md](labs/README.md). They are grouped by the job role they
 | [03 CyberArk Conjur](labs/03-cyberark-conjur/README.md) | Secrets under policy for humans and machines |
 | [04 SailPoint-style IGA](labs/04-sailpoint-iga/README.md) | Joiner, mover, leaver, SoD, certification, reconciliation |
 | [05 SCIM provisioning](labs/05-scim-provisioning/README.md) | Both sides of SCIM: idempotent sync, bad-feed guard, a vendor that fails to deactivate |
+
+## Interview preparation
+
+| File | Round |
+|---|---|
+| [Overview](interview/README.md) | The rounds, how to answer in real time, what is scored |
+| [01 Screens and fundamentals](interview/01-screen-and-fundamentals.md) | Recruiter and technical screen: 28 short questions with spoken answers |
+| [02 Technical deep dive](interview/02-technical-deep-dive.md) | Eight topics with the follow-up probes interviewers use |
+| [03 Troubleshooting](interview/03-troubleshooting.md) | A method and ten failure scenarios |
+| [04 Solution design](interview/04-solution-design.md) | A seven-step method and six worked designs |
+| [05 Behavioural](interview/05-behavioural.md) | Story templates to fill from your own experience |
+| [06 Mock interviews](interview/06-mock-interviews.md) | Timed scripts, a scorecard and drills |
 
 ## How to study
 

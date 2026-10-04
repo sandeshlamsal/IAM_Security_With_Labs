@@ -70,6 +70,10 @@ You can, without notes:
 5. Show identity configuration in Git with a pipeline that applies it.
 6. Explain any of the above to a non-engineer in two minutes.
 
+## Preparing for the interview
+
+Once the material is familiar, practise performing it: [interview preparation](../interview/README.md) has question sets, troubleshooting and design rounds, and timed mock interviews for this role.
+
 ## Honest gaps
 
 This repo teaches concepts and gives you safe practice. The role also asks for a **proven track record** of operating these systems in production, which only comes from doing the job. Use the labs and design notes to get an IAM engineering position, then build the record there.
