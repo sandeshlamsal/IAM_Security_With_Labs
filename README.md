@@ -6,6 +6,11 @@ A beginner-friendly path into Identity and Access Management (IAM): concepts fir
 
 IAM decides **who (or what) can access which resources, under what conditions**, and how that access is proven, granted, reviewed and removed.
 
+## Aiming for a specific job?
+
+- [Role guide: workforce IAM security engineer](docs/role-guide.md) maps a real job description, line by line, to the chapters and labs here.
+- [Tool comparison](docs/tool-comparison.md): OpenBao, CyberArk, SailPoint and Okta side by side.
+
 ## The big picture
 
 ```mermaid
@@ -39,6 +44,12 @@ Read the chapters in order. Each one takes 15 to 30 minutes and follows the same
 | 10 | [Cloud IAM](docs/10-cloud-iam.md) | How do AWS, Azure and GCP permissions work? |
 | 11 | [Cross-cutting topics](docs/11-cross-cutting.md) | Hybrid identity, threat detection, zero trust, compliance |
 | 12 | [Leading an IAM program](docs/12-iam-program-leadership.md) | How do you plan and build IAM for employees, contractors and partners at scale? |
+| 13 | [Workforce identity lifecycle](docs/13-workforce-identity-lifecycle.md) | How does a person flow from the HR system to every app? |
+| 14 | [Provisioning and integration patterns](docs/14-provisioning-and-integration-patterns.md) | How do you integrate any app or vendor, including weak ones? |
+| 15 | [Okta and Auth0](docs/15-okta-and-auth0.md) | How do the concepts map onto real identity platforms? |
+| 16 | [Acquisitions and migrations](docs/16-acquisitions-and-migrations.md) | How do you merge two companies' identity systems? |
+| 17 | [IAM engineering: code, CI/CD and AWS](docs/17-iam-engineering-code-cicd-aws.md) | How is identity built and run like software? |
+| 18 | [Delivery, rollout and communication](docs/18-delivery-rollout-and-communication.md) | How do you ship a change and explain it simply? |
 | -- | [Glossary](docs/glossary.md) | Every term in one place |
 
 ## Suggested pace
@@ -49,7 +60,8 @@ Read the chapters in order. Each one takes 15 to 30 minutes and follows the same
 | 2 | 03 to 04 | Draw the SAML and OIDC flows from memory |
 | 3 | 05 to 07 | Explain joiner/mover/leaver and why PAM exists |
 | 4 | 08 to 11 | Read a cloud IAM policy and say what it allows |
-| 5+ | [Labs](labs/README.md) | Build each concept with your own hands |
+| 5 | 12 to 18 | Trace a hire from HR to an app; plan an acquisition and a rollout |
+| 6+ | [Labs](labs/README.md) | Build each concept with your own hands |
 
 ## Labs
 
@@ -62,6 +74,7 @@ Start at [labs/README.md](labs/README.md). They are grouped by the job role they
 | [02 AKS identity](labs/02-aks-identity/README.md) | Entra ID login, Azure RBAC, Kubernetes RBAC, workload identity |
 | [03 CyberArk Conjur](labs/03-cyberark-conjur/README.md) | Secrets under policy for humans and machines |
 | [04 SailPoint-style IGA](labs/04-sailpoint-iga/README.md) | Joiner, mover, leaver, SoD, certification, reconciliation |
+| [05 SCIM provisioning](labs/05-scim-provisioning/README.md) | Both sides of SCIM: idempotent sync, bad-feed guard, a vendor that fails to deactivate |
 
 ## How to study
 

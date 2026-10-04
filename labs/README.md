@@ -12,7 +12,9 @@ Hands-on practice for the [concept chapters](../README.md#learning-path). Each l
 | 03 | [CyberArk Conjur: secrets under policy](03-cyberark-conjur/README.md) | Docker (local) | 06, 08, 09 | Free | 45 min |
 | 04 | [SailPoint-style IGA: joiner, mover, leaver, SoD, certification](04-sailpoint-iga/README.md) | Python (local) | 05 | Free | 45 min |
 
-Do them in order. Lab 04 needs nothing but Python, so start there if you have no cloud account yet.
+| 05 | [SCIM provisioning: both sides of the wire](05-scim-provisioning/README.md) | Python (local) | 13, 14 | Free | 45 min |
+
+Do them in order. Labs 04 and 05 need nothing but Python, so start there if you have no cloud account yet.
 
 ## About CyberArk and SailPoint
 
@@ -26,7 +28,8 @@ Both are commercial products with no free self-service edition, so these labs us
 | Role | What the job involves | Labs |
 |---|---|---|
 | **IAM Analyst** | Access requests, access reviews, onboarding and offboarding, audit evidence | 04 |
-| **IGA Engineer** (SailPoint, Saviynt) | Lifecycle automation, sources, roles, SoD, certifications | 04 |
+| **Workforce IAM Engineer** (Okta, Entra ID) | SSO, lifecycle from HR, provisioning, vendor integration | 04, 05, 01 |
+| **IGA Engineer** (SailPoint, Saviynt) | Lifecycle automation, sources, roles, SoD, certifications | 04, 05 |
 | **PAM Engineer** (CyberArk, BeyondTrust) | Vaulting, rotation, least privilege for machines and admins | 03 |
 | **Cloud IAM Engineer** | Cloud policies, roles, guardrails, workload identity | 01, 02 |
 | **Platform / Kubernetes security** | Cluster access, RBAC, pod identity | 02, 03 |
