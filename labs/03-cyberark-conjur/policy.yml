@@ -1,0 +1,27 @@
+# A policy branch groups related identities and secrets, much like a CyberArk Safe.
+- !policy
+  id: BotApp
+  body:
+    # A human operator.
+    - !user Dave
+
+    # Two applications (non-human identities).
+    - !host myDemoApp
+    - !host otherApp
+
+    # The secret itself. The value is set later, never written in policy.
+    - !variable dbPassword
+
+    # Dave may see, change and fetch the secret.
+    - !permit
+      role: !user Dave
+      privileges: [read, update, execute]
+      resource: !variable dbPassword
+
+    # The application may see and fetch it, but not change it.
+    - !permit
+      role: !host myDemoApp
+      privileges: [read, execute]
+      resource: !variable dbPassword
+
+    # otherApp is given nothing. Default deny applies.

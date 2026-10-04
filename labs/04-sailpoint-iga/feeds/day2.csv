@@ -1,0 +1,5 @@
+id,name,department,manager,type
+E001,Priya Shah,Procurement,M030,employee
+E003,Asha Rao,Procurement,M030,employee
+C001,Sam Ortiz,Engineering,M020,contractor
+E004,Lena Park,Finance,M010,employee

@@ -1,0 +1,15 @@
+{
+  "birthright": {
+    "*": ["email:mailbox", "intranet:reader"],
+    "Finance": ["finance-app:reader"],
+    "Procurement": ["finance-app:create-vendor"],
+    "Engineering": ["git:developer"]
+  },
+  "sod_policies": [
+    {
+      "name": "Vendor fraud",
+      "left": "finance-app:create-vendor",
+      "right": "finance-app:approve-payment"
+    }
+  ]
+}

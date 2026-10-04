@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: finance
+---
+# The principal: a non-human identity inside the cluster.
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: reader
+  namespace: finance
+---
+# The permissions: what may be done, and to which resources.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: pod-reader
+  namespace: finance
+rules:
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["get", "list"]
+---
+# The assignment: joins the principal to the permissions, in this namespace only.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: reader-can-read-pods
+  namespace: finance
+subjects:
+  - kind: ServiceAccount
+    name: reader
+    namespace: finance
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: pod-reader

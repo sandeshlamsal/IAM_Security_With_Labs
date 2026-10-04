@@ -1,0 +1,12 @@
+# Files the labs generate. Never commit these.
+labs/01-aws-iam/out/
+labs/03-cyberark-conjur/data_key
+labs/03-cyberark-conjur/admin_data
+labs/03-cyberark-conjur/*.token
+labs/04-sailpoint-iga/state.json
+
+.env
+*.pem
+*.key
+.DS_Store
+__pycache__/

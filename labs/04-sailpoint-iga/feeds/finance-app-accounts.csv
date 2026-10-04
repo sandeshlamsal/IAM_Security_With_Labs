@@ -1,0 +1,7 @@
+account,identity_id,entitlement
+priya.shah,E001,create-vendor
+asha.rao,E003,create-vendor
+asha.rao,E003,approve-payment
+tom.lee,E002,reader
+lena.park,E004,reader
+svc-legacy,,approve-payment

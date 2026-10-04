@@ -1,0 +1,35 @@
+# The annotation links this Kubernetes service account to the Azure managed identity.
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: workload-sa
+  namespace: finance
+  annotations:
+    azure.workload.identity/client-id: "CLIENT_ID_PLACEHOLDER"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: workload-demo
+  namespace: finance
+  labels:
+    # Tells AKS to inject the token file and the AZURE_* environment variables.
+    azure.workload.identity/use: "true"
+spec:
+  serviceAccountName: workload-sa
+  restartPolicy: Never
+  containers:
+    - name: demo
+      image: mcr.microsoft.com/azure-cli
+      command: ["/bin/sh", "-c"]
+      args:
+        - |
+          echo "Logging in with the Kubernetes-issued token, no password or key..."
+          az login --service-principal \
+            --username "$AZURE_CLIENT_ID" \
+            --tenant "$AZURE_TENANT_ID" \
+            --federated-token "$(cat $AZURE_FEDERATED_TOKEN_FILE)" \
+            --output none \
+          && echo "Login succeeded. Reading the resource group:" \
+          && az group show --name RG_PLACEHOLDER --query "{name:name, location:location}" --output table
+          sleep 3600
