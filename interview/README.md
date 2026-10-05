@@ -6,6 +6,18 @@ It is aimed at a senior workforce IAM engineer role (see the [role guide](../doc
 
 > Interview loops differ by company and change often. What follows is a **typical** shape. Ask your recruiter what the rounds are, who runs them and how long each lasts.
 
+## Which guide for which role
+
+| Role | Level and style | Start with | Role-specific guide |
+|---|---|---|---|
+| Workforce IAM security engineer | Senior, hands-on identity engineering | 01 to 06 | [Role guide](../docs/role-guide.md) |
+| IAM / ICAM governance and strategy | Advisory and programme work, often federal | 01, 05 | [07](07-governance-icam-interview.md) |
+| IAM systems engineer, customer-facing | Systems administration applied to identity: Active Directory, PowerShell, SQL, deployments | 01, 03 | [08](08-iam-systems-engineer-interview.md) |
+| Security software engineer | Software engineering of security and identity platforms; coding and design rounds | 02, 04 | [09](09-security-software-engineer-interview.md) |
+| Senior staff IAM software engineer | Platform engineering leadership: CI/CD, integrations, analytics, mentoring | 02, 04 | [10](10-staff-iam-software-engineer-interview.md) |
+
+Files 01 to 06 are the shared core. Files 07 to 10 each document one kind of role: what its posting asks for, the likely interview shape, role-specific questions with model answers, mock scripts and a scorecard.
+
 ## The rounds
 
 ```mermaid

@@ -92,6 +92,9 @@ Start at [labs/README.md](labs/README.md). They are grouped by the job role they
 | [05 Behavioural](interview/05-behavioural.md) | Story templates to fill from your own experience |
 | [06 Mock interviews](interview/06-mock-interviews.md) | Timed scripts, a scorecard and drills |
 | [07 Governance and ICAM role](interview/07-governance-icam-interview.md) | The two-stage process for a governance and strategy role, with questions for each area of that job description |
+| [08 IAM systems engineer](interview/08-iam-systems-engineer-interview.md) | Customer-facing role: Active Directory, certificates, PowerShell, SQL, deployments, layered troubleshooting |
+| [09 Security software engineer](interview/09-security-software-engineer-interview.md) | Coding, secure code review, threat modelling, security service design, external identity |
+| [10 Senior staff IAM software engineer](interview/10-staff-iam-software-engineer-interview.md) | CI/CD and automation, integrations, role mining and analytics, AI-assisted access, staff-level leadership |
 
 ## How to study
 
