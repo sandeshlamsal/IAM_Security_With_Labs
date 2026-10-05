@@ -1,0 +1,14 @@
+services:
+  dc:
+    build: .
+    hostname: dc1
+    domainname: lab.example.com
+    environment:
+      REALM: LAB.EXAMPLE.COM
+      DOMAIN: LAB
+      # Lab-only password for every seeded account. Never reuse it anywhere real.
+      LAB_PASSWORD: Lab-Only-Passw0rd!
+    # Samba stores Windows ACLs in extended attributes, which needs this capability in a container.
+    cap_add:
+      - SYS_ADMIN
+    # Nothing is published to the host: you work inside the container.
