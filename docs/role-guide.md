@@ -1,5 +1,7 @@
 # Role guide: workforce IAM security engineer
 
+For an advisory, programme-focused role, see the [governance and ICAM role guide](role-guide-governance-icam.md).
+
 This guide maps one target role to the material in this repo, line by line, so you know what to study, what to build and what to be able to say.
 
 ## The role in plain words

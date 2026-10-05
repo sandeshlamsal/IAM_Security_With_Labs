@@ -9,6 +9,7 @@ IAM decides **who (or what) can access which resources, under what conditions**,
 ## Aiming for a specific job?
 
 - [Role guide: workforce IAM security engineer](docs/role-guide.md) maps a real job description, line by line, to the chapters and labs here.
+- [Role guide: IAM / ICAM governance and strategy](docs/role-guide-governance-icam.md) does the same for an advisory, programme-focused role, including federal ICAM and zero trust.
 - [Tool comparison](docs/tool-comparison.md): OpenBao, CyberArk, SailPoint and Okta side by side.
 - [Interview preparation](interview/README.md): how live IAM interviews run, question sets with model answers, troubleshooting and design rounds, and timed mock interviews.
 
@@ -51,6 +52,8 @@ Read the chapters in order. Each one takes 15 to 30 minutes and follows the same
 | 16 | [Acquisitions and migrations](docs/16-acquisitions-and-migrations.md) | How do you merge two companies' identity systems? |
 | 17 | [IAM engineering: code, CI/CD and AWS](docs/17-iam-engineering-code-cicd-aws.md) | How is identity built and run like software? |
 | 18 | [Delivery, rollout and communication](docs/18-delivery-rollout-and-communication.md) | How do you ship a change and explain it simply? |
+| 19 | [Federal ICAM and zero trust](docs/19-federal-icam-and-zero-trust.md) | How does government identity work: PIV, assurance levels, controls, mandates? |
+| 20 | [Governance programme work](docs/20-governance-program-work.md) | How do you assess, recommend, govern and report on an identity programme? |
 | -- | [Glossary](docs/glossary.md) | Every term in one place |
 
 ## Suggested pace
@@ -88,6 +91,7 @@ Start at [labs/README.md](labs/README.md). They are grouped by the job role they
 | [04 Solution design](interview/04-solution-design.md) | A seven-step method and six worked designs |
 | [05 Behavioural](interview/05-behavioural.md) | Story templates to fill from your own experience |
 | [06 Mock interviews](interview/06-mock-interviews.md) | Timed scripts, a scorecard and drills |
+| [07 Governance and ICAM role](interview/07-governance-icam-interview.md) | The two-stage process for a governance and strategy role, with questions for each area of that job description |
 
 ## How to study
 

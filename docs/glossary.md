@@ -2,6 +2,7 @@
 
 | Term | Meaning | Chapter |
 |---|---|---|
+| AAL | Authenticator Assurance Level: how strong a login is (NIST SP 800-63) | 19 |
 | ABAC | Attribute-based access control: decisions from attributes and context | 04 |
 | Access token | Token an API accepts, stating what the client may do | 03 |
 | ACL | Access control list on a resource | 04 |
@@ -9,12 +10,14 @@
 | ADCS | Active Directory Certificate Services, Microsoft's CA | 09 |
 | ARN | Amazon Resource Name | 10 |
 | Assertion | Signed SAML statement about a user | 03 |
+| ATO | Authorization to operate: formal approval of a federal system | 19 |
 | ATO | Account takeover | 07 |
 | AuthN | Authentication: proving who you are | 00, 02 |
 | AuthZ | Authorization: deciding what you may do | 00, 04 |
 | Birthright access | Access given automatically on joining | 05 |
 | Break-glass account | Emergency admin account | 06 |
 | CA | Certificate authority | 09 |
+| CAC | Common Access Card: Department of Defense smart card | 19 |
 | CIAM | Customer identity and access management | 07 |
 | CIEM | Cloud infrastructure entitlement management | 10 |
 | Claim | One statement inside a token, such as `sub` or `aud` | 03 |
@@ -22,10 +25,15 @@
 | Credential | What is used to prove identity | 00 |
 | DN | Distinguished name: full path of a directory object | 01 |
 | Entitlement | One grantable item of access | 05 |
+| FAL | Federation Assurance Level | 19 |
 | Federation | One system trusting another's authentication | 03 |
+| FedRAMP | Programme authorizing cloud services for federal use | 19 |
+| FICAM | Federal identity, credential and access management architecture | 19 |
 | FIDO2 / WebAuthn | Standards behind passkeys | 02 |
 | GPO | Group Policy Object | 01 |
 | HSM | Hardware security module | 09 |
+| IAL | Identity Assurance Level: how well identity was proofed | 19 |
+| ICAM | Identity, credential and access management | 19 |
 | ID token | OIDC token telling the client who the user is | 03 |
 | IdP | Identity provider | 03 |
 | IGA | Identity governance and administration | 05 |
@@ -46,13 +54,16 @@
 | PAM | Privileged access management | 06 |
 | Passkey | Phishing-resistant credential based on a key pair | 02 |
 | PDP / PEP | Policy decision point / policy enforcement point | 04 |
+| PIV | Personal Identity Verification: federal smart card credential | 19 |
 | PKCE | Protection for the OAuth authorization code | 03 |
 | PKI | Public key infrastructure | 09 |
+| POA&M | Plan of action and milestones: tracked remediation list | 19, 20 |
 | Principal | Whoever is requesting access | 00 |
 | Provisioning | Creating accounts and granting access | 00, 05 |
 | RBAC | Role-based access control | 04 |
 | ReBAC | Relationship-based access control | 04 |
 | Refresh token | Token used to obtain new access tokens | 03 |
+| RMF | Risk Management Framework | 19 |
 | RP / SP | Relying party / service provider: the application | 03 |
 | SAML | XML-based SSO protocol | 03 |
 | SCIM | Standard API for provisioning users | 03 |

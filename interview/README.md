@@ -27,6 +27,8 @@ flowchart LR
 | Behavioural | 45 min | Ownership, ambiguity, communication, influence | [05](05-behavioural.md) |
 | Full practice loops | | All of the above, timed | [06](06-mock-interviews.md) |
 
+For a governance, strategy or federal ICAM role the process is usually shorter (a recruiter pre-screen, then one interview with the hiring manager and technical lead) and weighted towards approach and communication. That process is documented in [07](07-governance-icam-interview.md).
+
 ## How to answer in real time
 
 The hardest part of a live interview is not knowing the material. It is organising it in ten seconds while someone watches. Use a fixed shape for each kind of question so you never start from nothing.

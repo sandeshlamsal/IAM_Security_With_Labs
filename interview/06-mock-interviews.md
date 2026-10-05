@@ -148,4 +148,6 @@ You are ready when, in a mock:
 4. Every story has your actions, a result and something learned.
 5. You can say "I don't know" and then reason usefully.
 
+Mocks G and H, for a governance and strategy role, are in [07](07-governance-icam-interview.md).
+
 Back to the [interview overview](README.md).
